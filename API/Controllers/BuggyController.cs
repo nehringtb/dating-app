@@ -44,7 +44,7 @@ namespace API.Controllers
         public ActionResult<string> GetBadRequest()
         {
             
-            return BadRequest("This was not a good request");
+            return BadRequest();
         }
    
     }
